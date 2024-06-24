@@ -1,4 +1,4 @@
 # Test 
 ## repo
 
-Added many ```texts```
+**Added** *many* ```texts```
