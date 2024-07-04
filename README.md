@@ -6,4 +6,5 @@
 ..*And more texts
 
 ## CV
-[CV](https://github.com/Aquapunktura/rsschool-cv/blob/gh-pages/cv.md)
+[CV](https://aquapunktura.github.io/rsschool-cv/)
+
