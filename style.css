@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+a {
+	text-decoration: none;
+	color: #0366d6;
+}
+header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.header-a {
+	font-size: x-large;
+	margin-bottom: 20px;
+}
+nav {
+	cursor: pointer;
+	user-select: none;
+}
+main {
+	margin-bottom: 15px;
+}
+.h2 {
+	margin-top: 15px;
+	margin-bottom: 3px;
+	font-size: large;
+}
+.gh-logo {
+	margin-top: 10px;
+	height: 50px;
+}
+.footer-a {
+	margin-bottom: 15px;
+}
+.footer-a > span {
+	color: black;
+}
+.footer-logo {
+	height: 30px;
+}
