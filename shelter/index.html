@@ -21,7 +21,7 @@
 						<nav>
 							<ul class="nav-ul">
 								<li class="nav-li nav-li--active">
-									About the shelter
+									<a>About the shelter</a>
 								</li>
 								<li class="nav-li">
 									<a href="./our-pets.html">Our pets</a>
@@ -34,6 +34,7 @@
 								</li>
 							</ul>
 						</nav>
+						<div class="nav-burger">☰</div>
 					</div>
 				</div>
 			</header>
@@ -107,36 +108,38 @@
 							are looking for a house
 						</h3>
 						<div class="pets-slider">
-							<div class="btn-arrow">←</div>
-							<div class="card">
-								<div class="card__img">
-									<img
-										src="./assets/pets-katrine.png"
-										alt="pets-katrine"
-									/>
+							<div class="btn-arrow btn-arrow--left">←</div>
+							<div class="pets-slider__cards">
+								<div class="card">
+									<div class="card__img">
+										<img
+											src="./assets/pets-katrine.png"
+											alt="pets-katrine"
+										/>
+									</div>
+									<div class="card__name">Katrine</div>
+									<div class="btn btn-light">Learn more</div>
 								</div>
-								<div class="card__name">Katrine</div>
-								<div class="btn btn-light">Learn more</div>
-							</div>
-							<div class="card">
-								<div class="card__img">
-									<img
-										src="./assets/pets-jennifer.png"
-										alt="pets-jennifer"
-									/>
+								<div class="card">
+									<div class="card__img">
+										<img
+											src="./assets/pets-jennifer.png"
+											alt="pets-jennifer"
+										/>
+									</div>
+									<div class="card__name">Jennifer</div>
+									<div class="btn btn-light">Learn more</div>
 								</div>
-								<div class="card__name">Jennifer</div>
-								<div class="btn btn-light">Learn more</div>
-							</div>
-							<div class="card">
-								<div class="card__img">
-									<img
-										src="./assets/pets-woody.png"
-										alt="pets-woody"
-									/>
+								<div class="card">
+									<div class="card__img">
+										<img
+											src="./assets/pets-woody.png"
+											alt="pets-woody"
+										/>
+									</div>
+									<div class="card__name">Woody</div>
+									<div class="btn btn-light">Learn more</div>
 								</div>
-								<div class="card__name">Woody</div>
-								<div class="btn btn-light">Learn more</div>
 							</div>
 							<div class="btn-arrow">→</div>
 						</div>
@@ -264,9 +267,9 @@
 											alt="credit-card"
 										/>
 									</div>
-									<span class="donation-c-card-num h4">
+									<div class="donation-c-card-num h4">
 										8380 2880 8028 8791 7435
-									</span>
+									</div>
 								</div>
 								<div class="donation-legal-info">
 									Legal information and lorem ipsum dolor sit
@@ -286,56 +289,63 @@
 			<footer>
 				<div class="wrapper">
 					<div class="footer-container">
-						<div class="footer-el">
-							<div class="el-title">
-								For questions <br />
-								and suggestions
+						<div class="footer-list">
+							<div class="footer-el">
+								<div class="el-title">
+									For questions <br />
+									and suggestions
+								</div>
+								<div class="el-item">
+									<img
+										src="./assets/svg/icon-email.svg"
+										alt="icon-marker"
+									/>
+									<div class="el-ico"></div>
+									<div class="el-content">
+										email@shelter.com
+									</div>
+								</div>
+								<div class="el-item">
+									<img
+										src="./assets/svg/icon-phone.svg"
+										alt="icon-marker"
+									/>
+									<div class="el-ico"></div>
+									<div class="el-content">
+										+13 674 567 75 54
+									</div>
+								</div>
 							</div>
-							<div class="el-item">
-								<img
-									src="./assets/svg/icon-email.svg"
-									alt="icon-marker"
-								/>
-								<div class="el-ico"></div>
-								<div class="el-content">email@shelter.com</div>
-							</div>
-							<div class="el-item">
-								<img
-									src="./assets/svg/icon-phone.svg"
-									alt="icon-marker"
-								/>
-								<div class="el-ico"></div>
-								<div class="el-content">+13 674 567 75 54</div>
-							</div>
-						</div>
-						<div class="footer-el">
-							<div class="el-title">
-								We are waiting <br />
-								for your visit
-							</div>
-							<div class="el-item">
-								<div class="el-ico">
+							<div class="footer-el">
+								<div class="el-title">
+									We are waiting <br />
+									for your visit
+								</div>
+								<div class="el-item">
+									<div class="el-ico">
+										<img
+											src="./assets/svg/icon-marker.png"
+											alt="icon-marker"
+										/>
+									</div>
+									<div class="el-content">
+										1 Central Street, Boston <br />
+										(entrance from the store)
+									</div>
+								</div>
+								<div class="el-item">
 									<img
 										src="./assets/svg/icon-marker.png"
 										alt="icon-marker"
 									/>
-								</div>
-								<div class="el-content">
-									1 Central Street, Boston <br />
-									(entrance from the store)
-								</div>
-							</div>
-							<div class="el-item">
-								<img
-									src="./assets/svg/icon-marker.png"
-									alt="icon-marker"
-								/>
-								<div class="el-ico"></div>
-								<div class="el-content">
-									18 South Park, London
+									<div class="el-ico"></div>
+									<div class="el-content">
+										18 South Park, London
+									</div>
 								</div>
 							</div>
 						</div>
+
 						<img
 							class="footer-image"
 							src="./assets/footer-puppy.png"
